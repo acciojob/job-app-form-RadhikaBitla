@@ -11,29 +11,29 @@
     <script type="text/javascript" src="./script.js">
 	</script>
 
-		<form action="">
-			<Label for="name">Name:</Label>
+		<form method="post">
+			<Label for="name" required>Name:</Label>
 			<input type="text"><br>
 			
-			<Label for="Email">Email:</Label>
+			<Label for="email" required>email:</Label>
 			<input type="email"><br>
 			
-			<Label for="gender">Gender:</Label><br>
-			<input type="radio" id="gender">Male<br>
-			<input type="radio" id="gender">Female<br>
+			<Label for="gender" required>Gender:</Label><br>
+			<input type="radio" name="gender">Male<br>
+			<input type="radio" name="gender">Female<br>
 			
-			<Label for="brands">Laptop Brands</Label><br>
+			<Label for="laptop">Laptop Brands</Label><br>
 			<input type="checkbox">Apple<br>
 			<input type="checkbox">Asus<br>
 			<input type="checkbox">HP<br>
 
-			<Label for="Age">Age:</Label>
+			<Label for="Age" required>Age:</Label>
 			<input type="number"><br>
 
-			<Label for="DOB">DOB:</Label>
+			<Label for="dob" required>dob:</Label>
 			<input type="datetime-local"><br>
 
-			<Label for="password">Password:</Label>
+			<Label for="password" required>password:</Label>
 			<input type="number"><br>
 
 			<button type="submit" name="submit" value="submit">Submit</button>

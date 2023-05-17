@@ -13,27 +13,33 @@
 
 		<form method="post">
 			<Label for="name" >Name:</Label>
-			<input type="text" name="name" required><br>
+			<input type="text" id="name" required><br>
 			
 			<Label for="email" >email:</Label>
-			<input type="email" name="email" required><br>
-			
+			<input type="email" id="email" required><br>
+
 			<input name="gender" type="radio" required>Gender:<br>
 			
-			<Label for="laptop">Laptop Brands</Label><br>
-			<input type="checkbox" name="laptop">Apple<br>
-			<input type="checkbox" name="laptop">Asus<br>
-			<input type="checkbox" name="laptop">HP<br>
+			<Label for="laptop">Laptop Brands</Label>
+			<select id="laptop">
+				<option>Apple</option>
+				<option>Asus</option>
+				<option>HP</option>
+			</select><br>
 
-			<Label for="age" >Age:</Label>
-			<input type="number" required name="age"><br>
+			<Label for="age">Age:</Label>
+			<input type="number" id="age" required><br>
 
-			<Label for="dob" required>dob:</Label>
-			<input type="datetime-local" name="dob"><br>
+			<Label for="dob">dob:</Label>
+			<input type="datetime-local" id="dob" required><br>
 
 			<Label for="password" >password:</Label>
-			<input type="number"  name="password" required><br>
+			<input type="number"  id="password" required><br>
 
+			<label for="portfolio">Portfolio</label>
+			<input type="url" id="portfolio" name="portfolio">
+
+			
 			<button type="submit" name="submit" value="submit">Submit</button>
 			
 			
